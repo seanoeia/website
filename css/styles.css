@@ -2,9 +2,6 @@ body {
     background-color: darkolivegreen;
     color: rebeccapurple;
     }
-    article {
-    float: left;
-    }
     a {
     text-decoration: none;
     font-weight: bold;
