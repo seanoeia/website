@@ -1,19 +1,23 @@
 body {
     background-color: darkolivegreen;
-    color: rebeccapurple;
+    color: white;
     font-weight: bold;
     }
     a {
     text-decoration: none;
     font-weight: bold;
-    color: rebeccapurple;
+    color: white;
     }
     a:visited{
         text-decoration: none;
     }
     a:hover{
-        color: red;
+        color: purple;
     }
     audio {
         display: none;
+    }
+    article {
+        border: 1em;
+        border-color: white;
     }
