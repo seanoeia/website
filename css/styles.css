@@ -1,8 +1,19 @@
 body {
     background-color: darkolivegreen;
     color: rebeccapurple;
+    font-weight: bold;
     }
     a {
     text-decoration: none;
     font-weight: bold;
+    color: rebeccapurple;
+    }
+    a:visited{
+        text-decoration: none;
+    }
+    a:hover{
+        color: red;
+    }
+    audio {
+        display: none;
     }
