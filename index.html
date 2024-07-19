@@ -22,8 +22,32 @@
         <meta name="description" content="My name is Kate O'Neill a final year ICS student, and this is my Meta Description!">
 
         <style>
+            * {
 
+                box-sizing: border-box;
+                font-size: medium;
+            }
 
+            h1, h2, h3 {
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+
+            p {
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            header img {
+                display: inline-block;
+                vertical-align: top;
+                height: 150px;
+            }
+
+            header div {
+                display: inline-block;
+                vertical-align: bottom;
+            }
 
         </style>
 
@@ -32,20 +56,23 @@
     <body>
         <header>
 
-            <img src="img/kateface.jpg" alt="Kate's face" />            
+            <img src="img/kateface.jpg" alt="Kate's face" /> 
+            
+            <div>
 
-            <h1>Kate O'Neill</h1>
+                <h1>Kate O'Neill</h1>
+                <p> 
+                    Hello, I am a final year <abbr title="Integrated Computer Science">ICS</abbr> Student at <abbr title="Trinity College Dublin">TCD</abbr>.
+                    This is my personal website that acts as a portfolio. 
+                </p>
 
-            <nav>
-                <a href="https://github.com/katemayoneill">GitHub</a>
-                <a href="https://www.linkedin.com/in/katemayoneill/">LinkedIn</a>
-                <a href="https://www.instagram.com/knitterforlife01/">Instagram</a>
-            </nav>
+                <nav>
+                    <a href="https://github.com/katemayoneill">GitHub</a>
+                    <a href="https://www.linkedin.com/in/katemayoneill/">LinkedIn</a>
+                    <a href="https://www.instagram.com/knitterforlife01/">Instagram</a>
+                </nav>
 
-            <p> 
-                Hello, I am a final year <abbr title="Integrated Computer Science">ICS</abbr> Student at <abbr title="Trinity College Dublin">TCD</abbr>.
-                This is my personal website that acts as a portfolio. 
-            </p>
+            </div>
 
         </header>
 
@@ -68,12 +95,10 @@
 
                     <h2>Languages</h2>
                     
-                    <pre>                     
-English ⭐️⭐️⭐️⭐️⭐️
+                    <pre>English ⭐️⭐️⭐️⭐️⭐️
 French  ⭐️⭐️⭐️⭐️⭐️
 Italian ⭐️⭐️⭐️
-German  ⭐️⭐️⭐️
-                    </pre>
+German  ⭐️⭐️⭐️</pre>
 
                 </section>
 
@@ -81,34 +106,22 @@ German  ⭐️⭐️⭐️
                     <h2>Projects</h2>
 
                         <h3><a href="https://kaet.xyz/">kaet.xyz</a></h3>
-                        <ul>
-                            <li>Personal portfolio website (yes, this one!)</li>
-                            <li>Technology Used: HTML/CSS, JavaScript, AWS Amplify</li>
-                        </ul>
+                        <p>Personal portfolio website (yes, this one!) using HTML/CSS, JavaScript, AWS Amplify.</p>
 
-                        <h3>AI Persona Chatbot</h3>
-                        <ul>
-                            <li>AI chatbot that interprets and analyses large survey data sets for CSU33013 <abbr title="Software Engineering Group Project">SWENG</abbr> II and Bounce Insights</li>
-                            <li>Technology Used: OpenAI API, Node.js, ReactJS</li>
-                        </ul>
 
-                        <h3>Recipes App</h3>
-                        <ul>
-                            <li>Recipe Web app for CSU33012 Software Engineering</li>
-                            <li>Technology Used: HTML/CSS, Node.js, Docker, Spring Boot, Java, Apache Maven</li>
-                        </ul>
+                        <h3><a href="https://github.com/jathonderulo/SwEngGroup27">AI Persona Chatbot</a></h3>
+                        <p>AI chatbot that interprets and analyses large survey data sets for 
+                            CSU33013 <abbr title="Software Engineering Group Project">SWENG</abbr> II and Bounce Insights using OpenAI API, Node.js, ReactJS.</p>
 
-                        <h3>On Demand Video Transcoding</h3>
-                        <ul>
-                            <li>Web application that provides on-demand video transcoding for CSU22013 <abbr title="Software Engineering Group Project">SWENG</abbr> & Shutterstock</li>
-                            <li>Technology Used: HTMl/CSS, JavaScript, Docker, Python, Flask, SQLite, FFMPEG, FFPROBE</li>
-                        </ul>
+                        <h3><a href="https://gitlab.scss.tcd.ie/malashcs/swe-group3-frontend">Recipes App</a></h3>
+                        <p>Recipe Web app for CSU33012 Software Engineering using HTML/CSS, Node.js, Docker, Spring Boot, Java, Apache Maven</p>
 
-                        <h3>Morse Code Game</h3>
-                        <ul>
-                            <li>Game written in C and ARM Assembly Language for CSU23021 Microprocessor Systems</li>
-                            <li>Technology Used: Raspberry Pi Pico, C, ARM Assembly, Doxygen</li>
-                        </ul>
+                        <h3><a href="https://github.com/alexandersep/On-Demand-Video-Transcoding">On Demand Video Transcoding</a></h3>
+                        <p>Web application that provides on-demand video transcoding for CSU22013 <abbr title="Software Engineering Group Project">SWENG</abbr> & Shutterstock 
+                            using HTMl/CSS, JavaScript, Docker, Python, Flask, SQLite, FFMPEG, FFPROBE.</p>
+
+                        <h3><a href="https://gitlab.scss.tcd.ie/kannansk/msgroup41">Morse Code Game</a></h3>
+                        <p>Game written in C and ARM Assembly Language for CSU23021 Microprocessor Systems using Raspberry Pi Pico, C, ARM Assembly, Doxygen.</p>
 
                 </section>
 
@@ -145,12 +158,15 @@ German  ⭐️⭐️⭐️
 
                     </figure>
 
+                    <p><a href="https://www.instagram.com/knitterforlife01/">see more</a></p>
+                    <p><a href="/pages/knitting.html">patterns</a></p>
+
                 </section>
 
                 <section>
 
                     <h2>Machine Knitting</h2>
-                    <p>Recently Acquired an antique Singer double bed knitting machine that I have been slowly learning to use.</p>
+                    <p>Recently acquired an antique Singer double bed knitting machine that I have been slowly learning to use.</p>
 
                 </section>
 
@@ -163,9 +179,7 @@ German  ⭐️⭐️⭐️
 
             </aside>
 
-
         </main>
-
 
         <footer>
 
