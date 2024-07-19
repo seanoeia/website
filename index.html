@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <link rel="stylesheet" href="/css/normalize.css">
+
 
         <link rel="icon" href="/img/favicon.ico">
 
@@ -20,6 +20,12 @@
         <title>Kate O'Neill - Integrated Computer Science | Trinity College Dublin</title>
 
         <meta name="description" content="My name is Kate O'Neill a final year ICS student, and this is my Meta Description!">
+
+        <style>
+
+
+
+        </style>
 
     </head>
 
@@ -36,10 +42,10 @@
                 <a href="https://www.instagram.com/knitterforlife01/">Instagram</a>
             </nav>
 
-            <details> 
+            <p> 
                 Hello, I am a final year <abbr title="Integrated Computer Science">ICS</abbr> Student at <abbr title="Trinity College Dublin">TCD</abbr>.
                 This is my personal website that acts as a portfolio. 
-            </details>
+            </p>
 
         </header>
 
@@ -163,7 +169,7 @@ German  ⭐️⭐️⭐️
 
         <footer>
 
-            <p>current time: <span id="time"></span></p> 
+            <p id="time"></p> 
 
         </footer>
         
@@ -172,7 +178,8 @@ German  ⭐️⭐️⭐️
             let time;
             setInterval(() => {
               a = new Date();
-              time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+              time = a.toDateString() + ' ' + a.toTimeString();
+              time = time.toLowerCase();
               document.getElementById('time').innerHTML = time;
             }, 1000);
           </script>
