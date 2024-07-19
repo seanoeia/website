@@ -50,7 +50,7 @@
                 <section>
 
                     <h2>Education</h2>
-                    
+
                     <p>BA(Mod)in Computer Science @ <a href="https://www.tcd.ie/scss/">Trinity College Dublin</a> </i></p>
 
                     <p>Relevant modules: Software Engineering Project, Algorithms & Data Structures, Concurrent Systems and Operating Systems, 
@@ -62,13 +62,11 @@
 
                     <h2>Languages</h2>
                     
-                    <pre>
-                        
+                    <pre>                     
 English ⭐️⭐️⭐️⭐️⭐️
 French  ⭐️⭐️⭐️⭐️⭐️
 Italian ⭐️⭐️⭐️
 German  ⭐️⭐️⭐️
-
                     </pre>
 
                 </section>
@@ -132,38 +130,52 @@ German  ⭐️⭐️⭐️
                 <section>
 
                     <h2>Knitting</h2>
+                    <p>Mainly socks with 2.5mm needles using magic loop method.</p>
+
+                    <figure>
+                        
+                        <img src="/img/knitting.png" alt="Spider socks">
+                        <figcaption>Spider socks</figcaption>
+
+                    </figure>
 
                 </section>
 
                 <section>
 
                     <h2>Machine Knitting</h2>
+                    <p>Recently Acquired an antique Singer double bed knitting machine that I have been slowly learning to use.</p>
 
                 </section>
 
                 <section>
 
                     <h2>Fermentation</h2>
+                    <p>Water kefir, kombucha, ginger bug, sourdough, ...</p>
 
                 </section>              
 
             </aside>
 
-            <figure>
-                <pre></pre>
-
-                <figcaption></figcaption>
-
-            </figure>
 
         </main>
 
 
         <footer>
 
-            
+            <p>current time: <span id="time"></span></p> 
 
         </footer>
+        
+        <script type="text/javascript" charset="utf-8">
+            let a;
+            let time;
+            setInterval(() => {
+              a = new Date();
+              time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+              document.getElementById('time').innerHTML = time;
+            }, 1000);
+          </script>
 
     </body>
 </html>
